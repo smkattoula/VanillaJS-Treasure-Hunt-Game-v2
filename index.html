@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Treasure Hunt Game</title>
+  </head>
+  <body>
+    <h1>Treasure Hunt Game</h1>
+    <h2>Game Rules</h2>
+    <ol class="rulesList">
+      <li>Find the treasure to win the game</li>
+      <li>If you click on a bomb, you lose :(</li>
+      <li>You only have a limited amount of moves. Good luck!</li>
+    </ol>
+
+    <div class="table">
+      <table>
+        <tr>
+          <td onClick="treasure(0)" id="0">?</td>
+          <td onClick="treasure(1)" id="1">?</td>
+          <td onClick="treasure(2)" id="2">?</td>
+          <td onClick="treasure(3)" id="3">?</td>
+          <td onClick="treasure(4)" id="4">?</td>
+        </tr>
+        <tr>
+          <td onClick="treasure(5)" id="5">?</td>
+          <td onClick="treasure(6)" id="6">?</td>
+          <td onClick="treasure(7)" id="7">?</td>
+          <td onClick="treasure(8)" id="8">?</td>
+          <td onClick="treasure(9)" id="9">?</td>
+        </tr>
+        <tr>
+          <td onClick="treasure(10)" id="10">?</td>
+          <td onClick="treasure(11)" id="11">?</td>
+          <td onClick="treasure(12)" id="12">?</td>
+          <td onClick="treasure(13)" id="13">?</td>
+          <td onClick="treasure(14)" id="14">?</td>
+        </tr>
+
+        <tr>
+          <td onClick="treasure(15)" id="15">?</td>
+          <td onClick="treasure(16)" id="16">?</td>
+          <td onClick="treasure(17)" id="17">?</td>
+          <td onClick="treasure(18)" id="18">?</td>
+          <td onClick="treasure(19)" id="19">?</td>
+        </tr>
+
+        <tr>
+          <td onClick="treasure(20)" id="20">?</td>
+          <td onClick="treasure(21)" id="21">?</td>
+          <td onClick="treasure(22)" id="22">?</td>
+          <td onClick="treasure(23)" id="23">?</td>
+          <td onClick="treasure(24)" id="24">?</td>
+        </tr>
+      </table>
+    </div>
+    <p id="movesLeft">
+      Moves Left: 8
+    </p>
+    <div id="restart">
+      <button onClick="reset()">Restart Game</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
