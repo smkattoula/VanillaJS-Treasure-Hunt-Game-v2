@@ -12,6 +12,7 @@ h2 {
 
 ol {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: url("./img/desert.jpg") no-repeat center center/cover;
 }
 
 td {
@@ -28,6 +30,7 @@ td {
   height: 110px;
   text-align: center;
   font-size: 70px;
+  cursor: pointer;
 }
 
 td:hover {
@@ -40,7 +43,7 @@ button {
   background-color: rgb(245, 229, 200);
   border-radius: 5px;
   outline: none;
-  font-size: 14px;
+  font-size: 20px;
   padding: 5px 10px;
 }
 
@@ -51,4 +54,5 @@ button {
 #movesLeft {
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
